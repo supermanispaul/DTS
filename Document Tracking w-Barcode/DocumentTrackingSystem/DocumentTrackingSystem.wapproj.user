@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <AppxPackageIsForStore>False</AppxPackageIsForStore>
+    <AppxShowAllApps>False</AppxShowAllApps>
+    <AppxBuildConfigurationSelection>neutral</AppxBuildConfigurationSelection>
+    <PackageOptionalProjectsInIdeBuilds>False</PackageOptionalProjectsInIdeBuilds>
+    <Source>D:\Downloads\220px-DTI_2018_Logo.png</Source>
+    <SmallTileSource>D:\Downloads\220px-DTI_2018_Logo.png</SmallTileSource>
+    <MediumTileSource>D:\Downloads\220px-DTI_2018_Logo.png</MediumTileSource>
+    <WideTileSource>D:\Downloads\220px-DTI_2018_Logo.png</WideTileSource>
+    <LargeTileSource>D:\Downloads\220px-DTI_2018_Logo.png</LargeTileSource>
+    <AppIconSource>D:\Downloads\220px-DTI_2018_Logo.png</AppIconSource>
+    <SplashScreenSource>D:\Downloads\220px-DTI_2018_Logo.png</SplashScreenSource>
+    <PackageLogoSource>D:\Downloads\220px-DTI_2018_Logo.png</PackageLogoSource>
+  </PropertyGroup>
+</Project>

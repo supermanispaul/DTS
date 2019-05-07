@@ -1,0 +1,31 @@
+D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\bin\AnyCPU\Debug\resources.pri
+D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\bin\AnyCPU\Debug\Document Tracking w-Barcode\BouncyCastle.Crypto.dll
+D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\bin\AnyCPU\Debug\Document Tracking w-Barcode\Bunifu_UI_v1.52.dll
+D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\bin\AnyCPU\Debug\Document Tracking w-Barcode\MailKit.dll
+D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\bin\AnyCPU\Debug\Document Tracking w-Barcode\MimeKit.dll
+D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\bin\AnyCPU\Debug\Document Tracking w-Barcode\MySql.Data.dll
+D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\bin\AnyCPU\Debug\Document Tracking w-Barcode\Zen.Barcode.Core.dll
+D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\bin\AnyCPU\Debug\Document Tracking w-Barcode\Document Tracking w-Barcode.exe
+D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\bin\AnyCPU\Debug\Document Tracking w-Barcode\Document Tracking w-Barcode.exe.config
+D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\bin\AnyCPU\Debug\Document Tracking w-Barcode\Document Tracking w-Barcode.pdb
+D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\bin\AnyCPU\Debug\AppxManifest.xml
+D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\bin\AnyCPU\Debug\DocumentTrackingSystem.build.appxrecipe
+D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\obj\Debug\DocumentTrackingSystem.wapprojAssemblyReference.cache
+D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\obj\Debug\DocumentTrackingSystem.wapproj.CoreCompileInputs.cache
+D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\obj\Debug\priconfig.xml
+D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\obj\Debug\priconfig.xml.intermediate
+D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\obj\Debug\unfiltered.layout.resfiles
+D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\obj\Debug\unfiltered.layout.resfiles.intermediate
+D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\obj\Debug\filtered.layout.resfiles
+D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\obj\Debug\filtered.layout.resfiles.intermediate
+D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\obj\Debug\excluded.layout.resfiles
+D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\obj\Debug\excluded.layout.resfiles.intermediate
+D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\obj\Debug\resources.resfiles
+D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\obj\Debug\resources.resfiles.intermediate
+D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\obj\Debug\pri.resfiles
+D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\obj\Debug\pri.resfiles.intermediate
+D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\obj\Debug\qualifiers.txt
+D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\obj\Debug\qualifiers.txt.intermediate
+D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\obj\Debug\ProjectArchitectures.txt
+D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\obj\Debug\DocumentTrackingSystem.wapproj.LastBuild.txt

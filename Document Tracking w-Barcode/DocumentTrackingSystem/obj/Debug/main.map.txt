@@ -1,0 +1,22 @@
+[ResourceMetadata]
+"ResourceDimensions"		"scale-200"
+"ResourceDimensions"		"language-en-us"
+"ResourceDimensions"		"language-en-US"
+
+[Files]
+"D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\obj\Debug\split.pri"			"resources.pri"
+"D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\obj\Debug\PackageLayout\WinMetadata\Windows.winmd"			"WinMetadata\Windows.winmd"
+"D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\obj\Debug\PackageLayout\Images\Wide310x150Logo.scale-200.png"			"Images\Wide310x150Logo.scale-200.png"
+"D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\obj\Debug\PackageLayout\Images\StoreLogo.png"			"Images\StoreLogo.png"
+"D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\obj\Debug\PackageLayout\Images\Square44x44Logo.targetsize-24_altform-unplated.png"			"Images\Square44x44Logo.targetsize-24_altform-unplated.png"
+"D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\obj\Debug\PackageLayout\Images\Square44x44Logo.scale-200.png"			"Images\Square44x44Logo.scale-200.png"
+"D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\obj\Debug\PackageLayout\Images\Square150x150Logo.scale-200.png"			"Images\Square150x150Logo.scale-200.png"
+"D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\obj\Debug\PackageLayout\Images\LockScreenLogo.scale-200.png"			"Images\LockScreenLogo.scale-200.png"
+"D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\obj\Debug\PackageLayout\Document Tracking w-Barcode\Zen.Barcode.Core.dll"			"Document Tracking w-Barcode\Zen.Barcode.Core.dll"
+"D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\obj\Debug\PackageLayout\Document Tracking w-Barcode\MySql.Data.dll"			"Document Tracking w-Barcode\MySql.Data.dll"
+"D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\obj\Debug\PackageLayout\Document Tracking w-Barcode\MimeKit.dll"			"Document Tracking w-Barcode\MimeKit.dll"
+"D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\obj\Debug\PackageLayout\Document Tracking w-Barcode\MailKit.dll"			"Document Tracking w-Barcode\MailKit.dll"
+"D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\obj\Debug\PackageLayout\Document Tracking w-Barcode\Document Tracking w-Barcode.exe.config"			"Document Tracking w-Barcode\Document Tracking w-Barcode.exe.config"
+"D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\obj\Debug\PackageLayout\Document Tracking w-Barcode\Document Tracking w-Barcode.exe"			"Document Tracking w-Barcode\Document Tracking w-Barcode.exe"
+"D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\obj\Debug\PackageLayout\Document Tracking w-Barcode\Bunifu_UI_v1.52.dll"			"Document Tracking w-Barcode\Bunifu_UI_v1.52.dll"
+"D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\obj\Debug\PackageLayout\Document Tracking w-Barcode\BouncyCastle.Crypto.dll"			"Document Tracking w-Barcode\BouncyCastle.Crypto.dll"

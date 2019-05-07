@@ -1,0 +1,2 @@
+MainPackage=D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DocumentTrackingSystem\bin\AnyCPU\Debug\DocumentTrackingSystem_1.0.0.0_AnyCPU_Debug.appx
+SymbolPackage=C:\Users\k\Desktop\DocumentTrackingSystem_1.0.0.0_Debug_Test\DocumentTrackingSystem_1.0.0.0_AnyCPU_Debug.appxsym
