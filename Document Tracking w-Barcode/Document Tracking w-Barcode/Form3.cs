@@ -93,6 +93,7 @@ namespace Document_Tracking_w_Barcode
             scannedDocument.Text = $"{Path.GetFileName(scannedDocumentString)} (SCANNED DOCUMENT)";
             scannedDocument.Click += GetLabelName_Click;
             scannedDocument.MouseHover += CursorHoverLabel;
+            scannedDocument.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             scannedDocument.MouseLeave += CursorLeaveLabel;
             panel4.Controls.Add(scannedDocument);
             string[] fileSplitted = filesUploaded.Split(',');
@@ -112,6 +113,7 @@ namespace Document_Tracking_w_Barcode
                     label.Click += GetLabelName_Click;
                     label.MouseHover += CursorHoverLabel;
                     label.MouseLeave += CursorLeaveLabel;
+                    label.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
                     panel4.Controls.Add(label9);
                     panel4.Controls.Add(label);
                     listOfLabel.Add(label);
@@ -133,6 +135,7 @@ namespace Document_Tracking_w_Barcode
                     label.Click += GetLabelName_Click;
                     label.MouseHover += CursorHoverLabel;
                     label.MouseLeave += CursorLeaveLabel;
+                    label.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
                     panel5.Controls.Add(label11);
                     panel5.Controls.Add(label10);
                     panel5.Controls.Add(label);
@@ -146,16 +149,28 @@ namespace Document_Tracking_w_Barcode
         private void CursorLeaveLabel(object sender, EventArgs e)
         {
             this.Cursor = Cursors.Default;
+            Label hoveredLabel = (Label)sender;
+            hoveredLabel.BackColor = Color.White;
         }
 
         private void CursorHoverLabel(object sender, EventArgs e)
         {
+            Label hoveredLabel = (Label)sender;
+            hoveredLabel.BackColor = Color.FloralWhite;
             this.Cursor = Cursors.Hand;
         }
         private void GetLabelName_Click(object sender, EventArgs e)
         {
-            Label clickedLabel = (Label)sender;
-            Process.Start(clickedLabel.Name);
+            try
+            {
+                Label clickedLabel = (Label)sender;
+                Process.Start(clickedLabel.Name);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("The selected item was deleted by someone or been moved from different location, please ask your technical support for assistance.","Deleted File",MessageBoxButtons.OK,MessageBoxIcon.Warning);
+            }
+            
         }
         public string ItemSplitting(string itemToSplit)
         {
@@ -199,13 +214,19 @@ namespace Document_Tracking_w_Barcode
 
         private void Form3_Load(object sender, EventArgs e)
         {
-
+            
             UpdateList();
             HideThePopUp();
             ViewEmployeeList();
             remarksPop.Visible = false;
             panel4.HorizontalScroll.Enabled = true;
             panel4.AutoScroll = true;
+            HelloUser();
+        }
+
+        private void HelloUser()
+        {
+            helloUser.Text = $"Hello {employeeForm3.FirstName} {employeeForm3.LastName}";
         }
 
         private void HideThePopUp()
@@ -274,31 +295,7 @@ namespace Document_Tracking_w_Barcode
             return $"Subject: {subject}";
         }
 
-        private void listBox2_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tabPage1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void bunifuFlatButton1_Click(object sender, EventArgs e)
-        {
-            
-          
-        }
+       
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -326,15 +323,8 @@ namespace Document_Tracking_w_Barcode
             }
         }
 
-        private void panel4_Paint(object sender, PaintEventArgs e)
-        {
+      
 
-        }
-
-        private void EmployeeList_CellMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
-        {
-
-        }
 
         private void EmployeeList_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -385,27 +375,9 @@ namespace Document_Tracking_w_Barcode
 
         }
 
-        private void Label10_Click(object sender, EventArgs e)
-        {
+       
 
-        }
-
-        private void Label10_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-   
-
-        private void Label10_Click_2(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void Panel4_Paint_1(object sender, PaintEventArgs e)
         {
@@ -427,9 +399,10 @@ namespace Document_Tracking_w_Barcode
             
         }
 
-        private void Button2_Click_2(object sender, EventArgs e)
+       
+        private void Button2_Click_3(object sender, EventArgs e)
         {
-
+            CloseForm3();
         }
     }
 }

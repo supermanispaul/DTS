@@ -9,6 +9,7 @@ namespace Document_Tracking_w_Barcode
 {
     public class Document : Connection,IDisposable
     {
+        public DateTime DeadlineDate { get; set; }
         public string Tags { get; set; }
         public string UploadedFile { get; set; }
         public string DocumentType { get; set; }

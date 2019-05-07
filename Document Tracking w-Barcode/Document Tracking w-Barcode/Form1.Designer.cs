@@ -47,6 +47,8 @@
             this.Tag1Txt = new System.Windows.Forms.TextBox();
             this.Tag4Txt = new System.Windows.Forms.TextBox();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.deadlineDate = new System.Windows.Forms.DateTimePicker();
+            this.button5 = new System.Windows.Forms.Button();
             this.actionBox = new System.Windows.Forms.GroupBox();
             this.panel7 = new System.Windows.Forms.Panel();
             this.officeAndDivisionList = new System.Windows.Forms.ComboBox();
@@ -94,8 +96,6 @@
             this.dateReceived = new Bunifu.Framework.UI.BunifuDatepicker();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.button5 = new System.Windows.Forms.Button();
-            this.deadlineDate = new System.Windows.Forms.DateTimePicker();
             this.panel3.SuspendLayout();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -341,6 +341,30 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(533, 651);
             this.panel6.TabIndex = 74;
+            // 
+            // deadlineDate
+            // 
+            this.deadlineDate.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.deadlineDate.Enabled = false;
+            this.deadlineDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.deadlineDate.Location = new System.Drawing.Point(29, 532);
+            this.deadlineDate.Name = "deadlineDate";
+            this.deadlineDate.Size = new System.Drawing.Size(340, 29);
+            this.deadlineDate.TabIndex = 102;
+            // 
+            // button5
+            // 
+            this.button5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(375, 529);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(117, 32);
+            this.button5.TabIndex = 101;
+            this.button5.Text = "Set Deadline";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.Button5_Click_1);
             // 
             // actionBox
             // 
@@ -1013,30 +1037,6 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             this.openFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.OpenFileDialog1_FileOk);
-            // 
-            // button5
-            // 
-            this.button5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(375, 529);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(117, 32);
-            this.button5.TabIndex = 101;
-            this.button5.Text = "Set Deadline";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.Button5_Click_1);
-            // 
-            // deadlineDate
-            // 
-            this.deadlineDate.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.deadlineDate.Enabled = false;
-            this.deadlineDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.deadlineDate.Location = new System.Drawing.Point(29, 532);
-            this.deadlineDate.Name = "deadlineDate";
-            this.deadlineDate.Size = new System.Drawing.Size(340, 29);
-            this.deadlineDate.TabIndex = 102;
             // 
             // Form1
             // 

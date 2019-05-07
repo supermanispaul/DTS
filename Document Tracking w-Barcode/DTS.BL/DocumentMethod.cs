@@ -272,11 +272,12 @@ namespace Document_Tracking_w_Barcode
             bool inserted = false;
             base.GetConnection().Open();
                     com = base.GetConnection().CreateCommand();
-                    com.CommandText = @" BEGIN;INSERT INTO pending_document(documentBarcode,EmployeeID,Status,RemarkID) VALUES(@k,@l,@m,@n); INSERT INTO document(documentBarcode,DateCreated,DateReceived,FromWho,MeanOfDelivery,Subject,DocumentLocation,UploadedFile,tags,PrimaryDocID,DocumentTypeID) VALUES(@a,@b,@c,@d,@e,@f,@g,@h,@tags,@i,@j);INSERT INTO remarks(Remarks) VALUES(@o); COMMIT;";
+                    com.CommandText = @" BEGIN;INSERT INTO pending_document(documentBarcode,EmployeeID,Status,RemarkID) VALUES(@k,@l,@m,@n); INSERT INTO document(documentBarcode,DateCreated,DateReceived,DeadlineDate,FromWho,MeanOfDelivery,Subject,DocumentLocation,UploadedFile,tags,PrimaryDocID,DocumentTypeID) VALUES(@a,@b,@c,@deadlineDate,@d,@e,@f,@g,@h,@tags,@i,@j);INSERT INTO remarks(Remarks) VALUES(@o); COMMIT;";
                     com.Parameters.AddWithValue("@k", document.BarcodeNo);
                     com.Parameters.AddWithValue("@l", employees.EmployeeID);
                     com.Parameters.AddWithValue("@m", 0);
                     com.Parameters.AddWithValue("@n", document.RemarkID);
+                    com.Parameters.AddWithValue("@deadlineDate", document.DeadlineDate);
                     com.Parameters.AddWithValue("@a", document.BarcodeNo);
                     com.Parameters.AddWithValue("@b", document.DateCreated);
                     com.Parameters.AddWithValue("@c", document.DateReceived);

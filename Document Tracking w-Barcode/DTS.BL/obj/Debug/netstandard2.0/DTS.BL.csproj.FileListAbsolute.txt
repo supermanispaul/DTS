@@ -22,3 +22,27 @@ D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DTS.BL\bin\Deb
 D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DTS.BL\obj\Debug\netstandard2.0\DTS.BL.csproj.CopyComplete
 D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DTS.BL\obj\Debug\netstandard2.0\DTS.BL.dll
 D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\DTS.BL\obj\Debug\netstandard2.0\DTS.BL.pdb
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\DTS.BL\bin\Debug\netstandard2.0\DTS.BL.deps.json
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\DTS.BL\bin\Debug\netstandard2.0\DTS.BL.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\DTS.BL\bin\Debug\netstandard2.0\DTS.BL.pdb
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\DTS.BL\bin\Debug\netstandard2.0\Interop.WIA.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\DTS.BL\bin\Debug\netstandard2.0\MySql.Data.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\DTS.BL\bin\Debug\netstandard2.0\System.Windows.Forms.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\DTS.BL\bin\Debug\netstandard2.0\System.Security.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\DTS.BL\bin\Debug\netstandard2.0\System.Configuration.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\DTS.BL\bin\Debug\netstandard2.0\Accessibility.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\DTS.BL\bin\Debug\netstandard2.0\System.Deployment.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\DTS.BL\bin\Debug\netstandard2.0\System.Runtime.Serialization.Formatters.Soap.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\DTS.BL\bin\Debug\netstandard2.0\System.Windows.Forms.xml
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\DTS.BL\bin\Debug\netstandard2.0\System.Security.xml
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\DTS.BL\bin\Debug\netstandard2.0\System.Configuration.xml
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\DTS.BL\bin\Debug\netstandard2.0\Accessibility.xml
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\DTS.BL\bin\Debug\netstandard2.0\System.Deployment.xml
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\DTS.BL\bin\Debug\netstandard2.0\System.Runtime.Serialization.Formatters.Soap.xml
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\DTS.BL\obj\Debug\netstandard2.0\DTS.BL.csprojAssemblyReference.cache
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\DTS.BL\obj\Debug\netstandard2.0\DTS.BL.csproj.CoreCompileInputs.cache
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\DTS.BL\obj\Debug\netstandard2.0\DTS.BL.AssemblyInfoInputs.cache
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\DTS.BL\obj\Debug\netstandard2.0\DTS.BL.AssemblyInfo.cs
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\DTS.BL\obj\Debug\netstandard2.0\DTS.BL.csproj.CopyComplete
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\DTS.BL\obj\Debug\netstandard2.0\DTS.BL.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\DTS.BL\obj\Debug\netstandard2.0\DTS.BL.pdb

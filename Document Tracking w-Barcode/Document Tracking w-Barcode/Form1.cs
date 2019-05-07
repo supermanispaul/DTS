@@ -35,6 +35,12 @@ namespace Document_Tracking_w_Barcode
         public List<string> listOfDocuments;
         int scannedCount = 0;
         private string  destFile = null;
+
+
+        private void Saved()
+        {
+            
+        }
         public Form1()
         {
             InitializeComponent();
@@ -309,51 +315,73 @@ namespace Document_Tracking_w_Barcode
             
         }
 
-
+        private bool DateComparison()
+        {
+            bool dateHigher = true;
+            if (deadlineDate.Enabled)
+            {
+                if (DateTime.Now > deadlineDate.Value)
+                {
+                    dateHigher = false;
+                }
+            }
+            return dateHigher;
+        }
      
 
         private void Save(DialogResult dialogResult)
         {
             if (dialogResult == DialogResult.Yes)
             {
-
-                if (Scanner.doneScanning && CheckInput() && emailList.CheckedItems.Count > 0 && !String.IsNullOrEmpty(destFile))
+                if (DateComparison())
                 {
-                    Document doc = new Document();
-                    doc.BarcodeNo = refNo.Text;
-                    foreach (string employeeemail in emailList.CheckedItems.OfType<string>().ToList<string>())
+                    if (Scanner.doneScanning && CheckInput() && emailList.CheckedItems.Count > 0 && !String.IsNullOrEmpty(destFile))
                     {
-                        doc.SendTo.Add(employeeemail);
-                    }
+                        Document doc = new Document();
+                        doc.BarcodeNo = refNo.Text;
+                        foreach (string employeeemail in emailList.CheckedItems.OfType<string>().ToList<string>())
+                        {
+                            doc.SendTo.Add(employeeemail);
+                        }
 
-                    doc.Remarks = employeeRemark.Text;
-                    doc.DateCreated = dateCreated.Value;
-                    doc.DateReceived = dateReceived.Value;
-                    doc.EmployeeFrom = fromUser.Text;
-                    doc.Transportation = transportation.Text;
-                    doc.PrimaryDoc = primaryDoc.SelectedIndex;
-                    doc.DocType = docType.SelectedIndex;
-                    doc.Subject = subject.Text;
-                    doc.UploadedFile = uploadTxt.Text;
-                    doc.Tags = $"{Tag1Txt.Text},{Tag2Txt.Text},{Tag3Txt.Text},{Tag4Txt.Text}";
-                    doc.DocumentLocation = destFile; //destfile
-                    DocumentMethod docmet = new DocumentMethod(doc);
-                    employee.ListEmail = docmet.GetEmployeeByEmail();
-                    doc.LastRemarkID = docmet.GetLastRemarkID();
-                    foreach (var employeeID in docmet.ListEmployeeID())
-                    {
-                        employee.ListEmployeeID = new List<string>();
-                        employee.ListEmployeeID.Add(employeeID);
+                        doc.Remarks = employeeRemark.Text;
+                        doc.DateCreated = dateCreated.Value;
+                        doc.DateReceived = dateReceived.Value;
+                        doc.EmployeeFrom = fromUser.Text;
+                        doc.Transportation = transportation.Text;
+                        doc.PrimaryDoc = primaryDoc.SelectedIndex;
+                        doc.DocType = docType.SelectedIndex;
+                        doc.Subject = subject.Text;
+                        doc.UploadedFile = GetItemAndSendToNAS();
+                        if (deadlineDate.Enabled)
+                        {
+                            doc.DeadlineDate = deadlineDate.Value;
+                        }
+                        doc.Tags = $"{Tag1Txt.Text},{Tag2Txt.Text},{Tag3Txt.Text},{Tag4Txt.Text}";
+                        doc.DocumentLocation = destFile; //destfile
+                        DocumentMethod docmet = new DocumentMethod(doc);
+                        employee.ListEmail = docmet.GetEmployeeByEmail();
+                        doc.LastRemarkID = docmet.GetLastRemarkID();
+                        foreach (var employeeID in docmet.ListEmployeeID())
+                        {
+                            employee.ListEmployeeID = new List<string>();
+                            employee.ListEmployeeID.Add(employeeID);
+                        }
+                        DocumentMethod docmet2 = new DocumentMethod(doc, employee);
+                        InsertDocument(doc, docmet2);
+                        EmailToUser(doc, docmet2);
+                        CopyFile();
                     }
-                    DocumentMethod docmet2 = new DocumentMethod(doc, employee);
-                    InsertDocument(doc, docmet2);
-                    EmailToUser(doc, docmet2);
-                    CopyFile();
+                    else
+                    {
+                        MessageBox.Show($"Information not saved! Please provide the necessary information");
+                    }
                 }
                 else
                 {
-                    MessageBox.Show($"Information not saved! Please provide the necessary information");
+                    MessageBox.Show($"Deadline date is less than the date today!");
                 }
+              
             }
             else
             {
@@ -381,6 +409,7 @@ namespace Document_Tracking_w_Barcode
                 notifyIcon1.Visible = true;
                 notifyIcon1.ShowBalloonTip(10000, "DOCUMENT SAVED & EMAIL SENT!", "The document has been saved and an email has been sent!", ToolTipIcon.Info);
                 docCount.Text = docmet2.GetDocumentCount();
+                scannedDocument.Image = null;
             }
         }
 
@@ -572,14 +601,10 @@ namespace Document_Tracking_w_Barcode
             {
                 string path = Path.GetFullPath(files);
                 ext = Path.GetExtension(path);
-                if (a >= 10)
-                {
-                    newPath = Path.GetFullPath($@"\\10.20.4.30\temp\{refNo.Text}{a}{ext}");
-                }
-                else
-                {
-                    newPath = Path.GetFullPath($@"\\10.20.4.30\temp\{refNo.Text}0{a}{ext}");
-                }
+                string fileName = Path.GetFileNameWithoutExtension(path);
+               
+                    newPath = Path.GetFullPath($@"\\10.20.4.30\temp\{fileName}{refNo.Text}{ext}");
+                
                
                     File.Copy(path, newPath);
                 a++;
@@ -598,7 +623,16 @@ namespace Document_Tracking_w_Barcode
                 path.Add(io);
             }
             return path;
-
+        }
+        private string GetItemAndSendToNAS()
+        {
+            string uploadedFiles = "";
+            foreach(var items in SplitFiles())
+            {
+                uploadedFiles += $@"\\10.20.4.30\temp\{Path.GetFileNameWithoutExtension(items)}{refNo.Text}{Path.GetExtension(items)},";
+            }
+            
+            return uploadedFiles.Remove(uploadedFiles.Length - 1);
         }
 
         private void Button2_Click(object sender, EventArgs e)

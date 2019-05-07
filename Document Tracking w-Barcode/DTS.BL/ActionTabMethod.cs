@@ -17,6 +17,7 @@ namespace DTS.BL
         {
 
         }
+        
         public ActionTabMethod(ActionTab actionTab) 
         {
             this.actionTab = actionTab;
@@ -36,6 +37,22 @@ namespace DTS.BL
             base.GetConnection().Close();
             return actionTab;
         }
+        public string GetActionTabString()
+        {
+            string actionTabString = "";
+            base.GetConnection().Open();
+            com = base.GetConnection().CreateCommand();
+            com.CommandText = $"SELECT Action_Tab from action_tab WHERE Action_Tab = '{actionTab.ActionTabString}'";
+            
+            MySqlDataReader dr = com.ExecuteReader();
+            while (dr.Read())
+            {
+                actionTabString = dr[0].ToString();
+            }
+            base.GetConnection().Close();
+
+            return actionTabString;
+        }
         public DataTable GetActionTab()
         {
             base.GetConnection().Open();
@@ -46,6 +63,27 @@ namespace DTS.BL
             adapter.Fill(dt);
             base.GetConnection().Close();
             return dt;
+        }
+        public bool InsertActionTab()
+        {
+            bool inserted = false;
+            base.GetConnection().Open();
+            try
+            {
+                com = base.GetConnection().CreateCommand();
+                com.CommandText = @"INSERT INTO action_tab(Action_Tab) VALUES(@actionTab);";
+                com.Parameters.AddWithValue("@actionTab", actionTab.ActionTabString);
+                com.ExecuteNonQuery();
+                inserted = true;
+            }
+            catch (Exception)
+            {
+                inserted = false;
+            }
+          
+           
+            base.GetConnection().Close();
+            return inserted;
         }
         public bool UpdateActionTab()
         {

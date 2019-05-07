@@ -178,3 +178,128 @@ D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\Document Track
 D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\DTS.BL.pdb
 D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\PdfSharp.dll
 D:\Projects\Document Tracking Barcode\Document Tracking w-Barcode\Document Tracking w-Barcode\obj\Debug\Document_Tracking_w_Barcode.EditForm.resources
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\Document Tracking w-Barcode.exe.config
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\Document Tracking w-Barcode.exe
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\Document Tracking w-Barcode.pdb
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\Microsoft.Win32.Primitives.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\netstandard.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.AppContext.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Collections.Concurrent.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Collections.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Collections.NonGeneric.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Collections.Specialized.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.ComponentModel.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.ComponentModel.Primitives.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.ComponentModel.TypeConverter.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Console.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Data.Common.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Diagnostics.Contracts.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Diagnostics.Debug.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Diagnostics.Process.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Diagnostics.StackTrace.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Diagnostics.Tools.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Diagnostics.TraceSource.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Diagnostics.Tracing.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Drawing.Primitives.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Dynamic.Runtime.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Globalization.Calendars.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Globalization.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Globalization.Extensions.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.IO.Compression.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.IO.Compression.ZipFile.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.IO.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.IO.FileSystem.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.IO.FileSystem.Primitives.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.IO.FileSystem.Watcher.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.IO.IsolatedStorage.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.IO.MemoryMappedFiles.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.IO.Pipes.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Linq.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Linq.Expressions.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Linq.Parallel.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Linq.Queryable.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Net.Http.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Net.NameResolution.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Net.NetworkInformation.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Net.Ping.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Net.Primitives.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Net.Requests.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Net.Security.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Net.Sockets.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Net.WebHeaderCollection.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Net.WebSockets.Client.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Net.WebSockets.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.ObjectModel.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Reflection.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Reflection.Extensions.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Reflection.Primitives.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Resources.Reader.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Resources.ResourceManager.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Resources.Writer.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Runtime.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Runtime.Extensions.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Runtime.Handles.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Runtime.InteropServices.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Runtime.Numerics.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Runtime.Serialization.Formatters.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Runtime.Serialization.Json.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Runtime.Serialization.Primitives.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Runtime.Serialization.Xml.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Security.Claims.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Security.Cryptography.Algorithms.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Security.Cryptography.Csp.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Security.Cryptography.Encoding.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Security.Cryptography.Primitives.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Security.Principal.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Security.SecureString.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Text.Encoding.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Text.Encoding.Extensions.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Text.RegularExpressions.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Threading.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Threading.Overlapped.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Threading.Tasks.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Threading.Tasks.Parallel.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Threading.Thread.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Threading.ThreadPool.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Threading.Timer.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.ValueTuple.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Xml.ReaderWriter.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Xml.XDocument.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Xml.XmlDocument.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Xml.XmlSerializer.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Xml.XPath.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\System.Xml.XPath.XDocument.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\BouncyCastle.Crypto.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\DTS.BL.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\MailKit.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\MimeKit.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\Zen.Barcode.Core.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\Interop.WIA.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\DTS.BL.pdb
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\MailKit.xml
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\bin\Debug\MimeKit.xml
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\obj\Debug\Document Tracking w-Barcode.csprojAssemblyReference.cache
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\obj\Debug\Document Tracking w-Barcode.exe.config
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\obj\Debug\Interop.WIA.dll
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\obj\Debug\Document Tracking w-Barcode.csproj.ResolveComReference.cache
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\obj\Debug\Document_Tracking_w_Barcode.EditForm.resources
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\obj\Debug\Document_Tracking_w_Barcode.Form1.resources
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\obj\Debug\Document_Tracking_w_Barcode.Form2.resources
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\obj\Debug\Document_Tracking_w_Barcode.Form3.resources
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\obj\Debug\Document_Tracking_w_Barcode.Form6.resources
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\obj\Debug\Document_Tracking_w_Barcode.Form7.resources
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\obj\Debug\Document_Tracking_w_Barcode.Properties.Resources.resources
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\obj\Debug\Document_Tracking_w_Barcode.SignupForm.resources
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\obj\Debug\Document Tracking w-Barcode.csproj.GenerateResource.cache
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\obj\Debug\Document Tracking w-Barcode.csproj.CoreCompileInputs.cache
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\obj\Debug\Document Tracking w-Barcode.csproj.CopyComplete
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\obj\Debug\Document Tracking w-Barcode.exe
+D:\Documents\GitHub\DTS\Document Tracking w-Barcode\Document Tracking w-Barcode\obj\Debug\Document Tracking w-Barcode.pdb

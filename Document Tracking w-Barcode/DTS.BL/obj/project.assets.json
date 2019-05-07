@@ -186,11 +186,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Document Tracking Barcode\\Document Tracking w-Barcode\\DTS.BL\\DTS.BL.csproj",
+      "projectUniqueName": "D:\\Documents\\GitHub\\DTS\\Document Tracking w-Barcode\\DTS.BL\\DTS.BL.csproj",
       "projectName": "DTS.BL",
-      "projectPath": "D:\\Projects\\Document Tracking Barcode\\Document Tracking w-Barcode\\DTS.BL\\DTS.BL.csproj",
+      "projectPath": "D:\\Documents\\GitHub\\DTS\\Document Tracking w-Barcode\\DTS.BL\\DTS.BL.csproj",
       "packagesPath": "C:\\Users\\k\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Document Tracking Barcode\\Document Tracking w-Barcode\\DTS.BL\\obj\\",
+      "outputPath": "D:\\Documents\\GitHub\\DTS\\Document Tracking w-Barcode\\DTS.BL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\ProgramData\\Xamarin\\NuGet\\",

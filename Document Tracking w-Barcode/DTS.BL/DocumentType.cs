@@ -6,5 +6,7 @@ namespace DTS.BL
 {
     public class DocumentType
     {
+        public int DocumentTypeID { get; set; }
+        public string DocumentTypeString { get; set; }
     }
 }
